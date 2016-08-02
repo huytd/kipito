@@ -1,0 +1,38 @@
+{
+  "name": "kipito",
+  "version": "1.0.0",
+  "description": "Kipalog Editor",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/.setup.js test/**/*.spec.js",
+    "dev": "webpack-dev-server"
+  },
+  "keywords": [
+    "kipalog",
+    "editor",
+    "markdown"
+  ],
+  "author": "Huy Tr.",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.11.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-register": "^6.11.6",
+    "chai": "^3.5.0",
+    "css-loader": "^0.23.1",
+    "enzyme": "^2.4.1",
+    "jsdom": "^9.4.1",
+    "mocha": "^3.0.0",
+    "node-sass": "^3.8.0",
+    "react": "^15.3.0",
+    "react-addons-test-utils": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "sass-loader": "^4.0.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
